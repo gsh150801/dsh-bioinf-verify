@@ -1,0 +1,4 @@
+# Installable composition for dsh-bioinf-verify.
+- insert:
+    - id: bioinf-verify
+      name: dsh-bioinf-verify
