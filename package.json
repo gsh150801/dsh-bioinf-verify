@@ -2,6 +2,10 @@
   "name": "dsh-bioinf-verify",
   "description": "Standalone verification plugin for DeepSeek Harness: registry evidence checks (DOI/PMID/trial/dataset/protein/patent + retraction scan), URL accessibility verification, temperature-0 claim-vs-source semantic consistency, and a whole-report verification workflow that decomposes a report into categorized evidence points, checks each from multiple aspects over a durable auditable ledger, and produces the original report annotated with inline failure markers plus a full appended verification report",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsh150801/dsh-bioinf-verify.git"
+  },
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
